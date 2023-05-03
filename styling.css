@@ -95,7 +95,7 @@ li {
   gap: .2rem;
 }
 
-.navbar-container {
+.navbar-container-c {
   display: flex;
   justify-content: space-evenly;
   font-family: Esteban, serif;
@@ -273,7 +273,7 @@ li {
 .technical-skills-desc {
   font-family: Monserrat, sans-serif;
   margin-top: 4rem;
-  width: 60%;
+  width: 50%;
 }
 
 .gen-languages-container {
@@ -671,7 +671,7 @@ input, textarea {
 
 @media (max-width: 900px){
   
-  .navbar-container {
+  .navbar-container-c {
     justify-content: space-evenly;
   }
 
