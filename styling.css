@@ -1,6 +1,7 @@
 /* general */
 
-html {
+html, body {
+  overflow: auto;
   color: #222;
 }
 
