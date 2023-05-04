@@ -10,7 +10,6 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  max-width: 100%;
 }
 
 h3 {
@@ -62,15 +61,15 @@ li {
 /* Hero */
 
 .hero-container {
-  /*background: linear-gradient(90deg,#569DAA, #B9EDDD);*/
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-size: 300% 300%;
+  background-size: 400% 400%;
   background-image: linear-gradient(-45deg, #569DAA 0%, #8DE2E3 25%, #8DE3B4 51%, #FF91A8 100%);
   animation: animate-bg 15s ease infinite;
+  padding-right: 1rem;
   margin-bottom: 1rem; 
 }
 
