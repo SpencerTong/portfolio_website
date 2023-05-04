@@ -331,7 +331,7 @@ li {
 
 .timeline-container {
   display: grid;
-  width: 80%;
+  width: 70vw;
   grid-template-columns: 1fr 5px 1fr;
   grid-template-rows: repeat(3, auto);
 }
@@ -359,6 +359,10 @@ li {
 
 .timeline-element h5 {
   font-weight: 700;
+}
+
+.timeline-element > p {
+  width: 100%;
 }
 
 .timeline-line {
