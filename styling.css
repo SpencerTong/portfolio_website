@@ -2,8 +2,6 @@
 
 html {
   color: #222;
-  max-width: 100%;
-  overflow-x: hidden;
 }
 
 body {
@@ -667,11 +665,6 @@ input, textarea {
 
 @media (max-width: 1000px){
   
-  html {
-    color: #222;
-    max-width: none;
-    overflow-x: scroll;
-  }
 
   .row-separator {
     width: 10rem;
