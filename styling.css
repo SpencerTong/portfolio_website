@@ -315,13 +315,14 @@ li {
 
 .work-exp-container {
   display: flex;
-  padding: 2rem 15px 0 15px;
+  padding: 2rem .2rem 0 .2rem;
   margin-bottom: 0;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  gap: 2rem;
   text-align: center;
   color: #222;
+  max-width: 100%;
 }
 
 
@@ -331,8 +332,8 @@ li {
 
 .timeline-container {
   display: grid;
-  width: 70vw;
-  grid-template-columns: 1fr 5px 1fr;
+  width: 65vw;
+  grid-template-columns: 1fr .01fr 1fr;
   grid-template-rows: repeat(3, auto);
 }
 
@@ -346,10 +347,10 @@ li {
   font-family: Monserrat, sans-serif;
   text-align: left;
   line-height: 1.25em;
-  box-shadow: 0 0 7px rgba(0,0,0,0.2);
+  box-shadow: 0 0 .5vw rgba(0,0,0,0.2);
   padding: .5em 2em 2.5em 2em;
   margin-bottom: 1em;
-  border-radius: 10px;
+  border-radius: .02vw;
   height: auto;
 }
 
@@ -668,6 +669,10 @@ input, textarea {
 
 @media (max-width: 1000px){
   
+
+  .hero-container {
+    height: 80vh;
+  }
 
   .row-separator {
     width: 10rem;
