@@ -40,6 +40,7 @@ p {
 
 li {
   line-height: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 .container-c {
@@ -561,9 +562,8 @@ li {
 }
 
 .proj-horizontal-flex-cont {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 10rem;
+  text-align: left;
+  font-family: Monserrat, sans-serif;
 }
 
 .proj-horizontal-flex-cont h3 {
